@@ -11,6 +11,11 @@ ul{
     display: flex;
     gap: 20px;
     text-decoration: none;
+    align-items: end;
+    justify-content: end;
+    margin-left: 80%;
+}
+h3{
     justify-content: end;
 }
 h1{
@@ -24,4 +29,7 @@ h1{
 
 p{
     margin: 30px ;
+}
+input{
+    margin: 30px;
 }
