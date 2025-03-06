@@ -16,7 +16,7 @@ ul{
     margin-left: 80%;
 }
 h3{
-   
+    justify-content: end;
 }
 h1{
     margin: 30px;
