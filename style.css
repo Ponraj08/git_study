@@ -1,7 +1,23 @@
 *{
-    margin: 30px;
+    margin: 0px;
+    padding: 0px;
 }
-
+nav{
+    display: flex;
+    background-color: bisque;
+    padding: 20px;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    align-items: end;
+    justify-content: end;
+    margin-left: 80%;
+}
+h3{
+   
+}
 h1{
     margin: 30px;
     color: black;
@@ -13,4 +29,7 @@ h1{
 
 p{
     margin: 30px ;
+}
+input{
+    margin: 30px;
 }
