@@ -6,29 +6,88 @@ nav{
     display: flex;
     background-color: bisque;
     padding: 20px;
+    padding-left: 30px;
+    align-items: center;
 }
-ul{
+.nav_ul{
     display: flex;
-    gap: 20px;
-    text-decoration: none;
-    align-items: end;
-    justify-content: end;
     margin-left: 80%;
+    list-style-type: none;
+    gap: 30px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
 }
-h3{
-    justify-content: end;
+.nav_ul a{
+    text-decoration: none;
+    color: black;
 }
+.nav_ul  a:active{
+    border-bottom: solid 1px black;
+}
+li button{
+    background-color: black;
+    color: white;
+    max-width: 150px;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+li button:hover{
+
+    background-color: white;
+    color: black;
+    transform: 2s;
+
+}
+
 h1{
     margin: 30px;
-    color: black;
-    background-color: bisque;
-    max-width: fit-content;
-    padding: 20px;
-    
 }
 
 p{
     margin: 30px ;
+}
+.steps{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    font-size: 20px;
+    margin: 30px;
+    margin-left: 30px;
+    justify-content: space-between;
+
+}
+.step-1{
+    background-color: bisque;
+    width: fit-content;
+    padding: 20px 20px 20px 30px;
+    list-style: decimal;
+
+}
+.step-2{
+    background-color: bisque;
+    width: fit-content;
+    padding: 20px 20px 20px 30px;
+    list-style: decimal;
+}
+.step-3{
+    background-color: bisque;
+    width: fit-content;
+    padding: 20px 20px 20px 30px;
+    list-style: decimal;
+}    
+.step-4{
+    background-color: bisque;
+    width: fit-content;
+    padding: 20px 20px 20px 30px;
+    list-style: decimal;
+}
+.side-head{
+    margin-left: -20px;
+    margin-bottom: 20px;
 }
 input{
     margin: 30px;
