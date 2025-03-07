@@ -53,42 +53,43 @@ p{
 .steps{
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    row-gap: 20px;
+    column-gap: 30px;
     font-size: 20px;
     margin: 30px;
     margin-left: 30px;
-    justify-content: space-between;
+ 
 
 }
 .step-1{
     background-color: bisque;
-    width: fit-content;
+    max-width: 500px;
     padding: 20px 20px 20px 30px;
     list-style: decimal;
 
 }
 .step-2{
     background-color: bisque;
-    width: fit-content;
+    max-width: 500px;
     padding: 20px 20px 20px 30px;
     list-style: decimal;
 }
 .step-3{
     background-color: bisque;
-    width: fit-content;
+    max-width: 500px;
     padding: 20px 20px 20px 30px;
     list-style: decimal;
 }    
 .step-4{
     background-color: bisque;
-    width: fit-content;
+    max-width: 500px;
     padding: 20px 20px 20px 30px;
     list-style: decimal;
 }
 
 .step-5{
     background-color: bisque;
-    width: fit-content;
+    max-width: 500px;
     padding: 20px 20px 20px 30px;
     list-style: decimal;
 } 
